@@ -1,0 +1,1 @@
+<h1>esto viene de otro archivo php</h1>
