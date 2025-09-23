@@ -35,7 +35,7 @@
     </section>
     <section>
     <h2>formulario de contacto</h2>
-    <form action="#" method="post">
+    <form action="consulta.php" method="post">
         <label for="name">Nombre:</label>
         <input type="text" id="name" name="name" required><br><br>
 
@@ -45,8 +45,12 @@
         <label for="message">Mensaje:</label><br>
         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
 
+        <label for="birthdate">Fecha de cumpleaños:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
         <input type="submit" value="Enviar">
     </form>
+
     </section>
     </main>
 
